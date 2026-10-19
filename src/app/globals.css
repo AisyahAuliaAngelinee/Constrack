@@ -3,3 +3,6 @@
 
 .navigation-progress{position:fixed;top:0;left:0;width:100%;height:3px;background:#03e29c;box-shadow:0 0 9px #03e29c88;z-index:9999;transform-origin:left;pointer-events:none;transition:transform 180ms ease-out,opacity 180ms ease-out;}
 @media(prefers-reduced-motion:reduce){.navigation-progress{transition:none;}}
+
+/* Connected workspace states */
+.auth-links{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.login-card form{margin:20px 0}.login-card>button{margin:12px 0}.plain-fieldset{border:0;padding:0;margin:0;min-width:0}.ai-review{margin-top:24px}.ai-review article{padding:16px 0;border-bottom:1px solid #e5e9e7}.ai-review ul{padding-left:22px}.ai-review p{margin:12px 0}.sync-error{position:fixed;inset:0;z-index:10000;background:#f5f8f2f5;display:flex;align-items:center;justify-content:center;gap:20px;padding:32px;flex-direction:column;text-align:center}.button:disabled{opacity:.55;cursor:wait}.settings-panel form{margin-top:16px}.account-menu button{padding:12px;text-align:left;background:none;border:0;cursor:pointer}
